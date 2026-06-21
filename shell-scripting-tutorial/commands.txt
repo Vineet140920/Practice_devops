@@ -1,0 +1,7 @@
+Comments to write the file information
+
+    set -x   #debug
+    ps -ef
+    ps -ef | grep "init-file"
+    | - pipe 
+    ./test.sh | grep 1
