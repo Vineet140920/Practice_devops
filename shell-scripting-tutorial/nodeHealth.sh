@@ -12,6 +12,12 @@
 
 set -x  # debug mode 
 
+set -e # exit the script when there is erro
+
+set -o # pipefail
+
+bvrrjhnghuh
+
 df -h
 
 
@@ -20,3 +26,5 @@ free -g
 
 
 nproc
+
+ps -ef | grep init  | awk -F " " ' {print $2}'
